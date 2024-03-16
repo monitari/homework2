@@ -40,7 +40,7 @@ int main() {
     printf("value of *ptr == %d\n", *ptr);     //*ptr = 7777
     printf("value of **dptr == %d\n", **dptr); //**dptr의 값 = *ptr = 7777, 즉 **dptr = 7777
 
-    **dptr = 8888; //*dptr = 8888
+    **dptr = 8888; //*dptr = 8888 
     printf("========== 김준후 2023041018 ==========\n");
     printf("[after **dptr = 8888]\n");
     printf("value of i == %d\n", i);           // i = *ptr의 값 = **dptr = 8888, 즉 i = 8888
