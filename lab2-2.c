@@ -47,3 +47,4 @@ int main() {
     printf("value of *ptr == %d\n", *ptr);     //*ptr = **dptr = 8888, 즉 *ptr = 8888
     printf("value of **dptr == %d\n", **dptr); //*dptr = 8888
 }
+//github 테스트용
