@@ -22,4 +22,3 @@ int main() {
     printf("Size of double*: %ldbytes\n", sizeof(double *)); // 4바이트로 출력
     return 0;
 }
-// 테스트
