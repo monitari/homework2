@@ -19,6 +19,6 @@ int main() {
     printf("Size of char*: %ldbyte\n", sizeof(char *));      // 32비트 환경이므로
     printf("Size of int*: %ldbytes\n", sizeof(int *));       // 포인터 변수의 크기는
     printf("Size of float*: %ldbytes\n", sizeof(float *));   // 모두
-    printf("Size of double*: %ldbytes\n", sizeof(double *)); // 4바이트로 출력
+    printf("Size of double*: %ldbytes\n", sizeof(double *)); // 4바이트로 출력 
     return 0; 
 }

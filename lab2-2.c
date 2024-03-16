@@ -43,7 +43,7 @@ int main() {
     **dptr = 8888; //*dptr = 8888 
     printf("========== 김준후 2023041018 ==========\n");
     printf("[after **dptr = 8888]\n");
-    printf("value of i == %d\n", i);           // i = *ptr의 값 = **dptr = 8888, 즉 i = 8888
+    printf("value of i == %d\n", i);           // i = *ptr의 값 = **dptr = 8888, 즉 i = 8888 
     printf("value of *ptr == %d\n", *ptr);     //*ptr = **dptr = 8888, 즉 *ptr = 8888
     printf("value of **dptr == %d\n", **dptr); //*dptr = 8888
 }
